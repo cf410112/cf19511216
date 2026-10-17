@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250">
+  <defs>
+    <style>
+      .t{font-family:"Noto Sans TC","Microsoft JhengHei",sans-serif;fill:#17324d}
+      .title{font-size:44px;font-weight:800}.sub{font-size:21px}.h{font-size:26px;font-weight:800}
+      .b{font-size:20px;font-weight:700}.n{font-size:17px}.s{font-size:15px}.tiny{font-size:13px}
+      .line{stroke:#587187;stroke-width:2}.dash{stroke:#8da1b2;stroke-width:2;stroke-dasharray:8 6}
+      .room{fill:#eef5fb;stroke:#4f7798;stroke-width:2}.activity{fill:#dff3e6;stroke:#4a8b62;stroke-width:2}
+      .service{fill:#fff1d7;stroke:#b57b26;stroke-width:2}.core{fill:#e9e5f5;stroke:#7563a8;stroke-width:2}
+      .warn{fill:#fff1ef;stroke:#ce493e;stroke-width:2}.white{fill:#fff}.muted{fill:#64788a}
+    </style>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#17324d" flood-opacity=".14"/>
+    </filter>
+  </defs>
+
+  <rect width="1800" height="1250" fill="#f7fafc"/>
+  <rect x="40" y="32" width="1720" height="102" rx="18" fill="#17324d"/>
+  <text x="80" y="88" class="t title white">住宿式長照機構｜130床容量配置草案</text>
+  <text x="80" y="119" class="t sub white">1–7樓｜分層機能、典型照顧單元與法規面積檢核（非比例圖／非送審施工圖）</text>
+
+  <!-- left: vertical zoning -->
+  <g filter="url(#shadow)">
+    <rect x="40" y="160" width="465" height="870" rx="18" fill="#fff"/>
+  </g>
+  <text x="70" y="205" class="t h">A｜整棟垂直配置</text>
+  <text x="70" y="235" class="t s muted">3–7樓各26床，共130床；屬容量壓力測試，尚非合規定案。</text>
+
+  <!-- floor rows -->
+  <g class="t">
+    <rect x="70" y="265" width="405" height="92" rx="10" class="room"/>
+    <text x="88" y="300" class="b">7F｜319.24㎡｜26床照顧單元</text>
+    <text x="88" y="329" class="s">4間五人房＋1間六人房、活動52㎡；高度緊迫</text>
+
+    <rect x="70" y="369" width="405" height="92" rx="10" class="room"/>
+    <text x="88" y="404" class="b">6F｜370.96㎡｜26床照顧單元</text>
+    <text x="88" y="433" class="s">4間五人房＋1間六人房、工作站、活動52㎡</text>
+
+    <rect x="70" y="473" width="405" height="92" rx="10" class="room"/>
+    <text x="88" y="508" class="b">5F｜370.96㎡｜26床照顧單元</text>
+    <text x="88" y="537" class="s">4間五人房＋1間六人房、工作站、活動52㎡</text>
+
+    <rect x="70" y="577" width="405" height="92" rx="10" class="room"/>
+    <text x="88" y="612" class="b">4F｜370.96㎡｜26床照顧單元</text>
+    <text x="88" y="641" class="s">4間五人房＋1間六人房、工作站、活動52㎡</text>
+
+    <rect x="70" y="681" width="405" height="92" rx="10" class="room"/>
+    <text x="88" y="716" class="b">3F｜370.96㎡｜26床照顧單元</text>
+    <text x="88" y="745" class="s">4間五人房＋1間六人房、工作站、活動52㎡</text>
+
+    <rect x="70" y="785" width="405" height="92" rx="10" class="service"/>
+    <text x="88" y="820" class="b">2F｜307.47㎡｜專業／後勤</text>
+    <text x="88" y="849" class="s">復健／多功能活動110㎡、隔離室、會談、洗衣</text>
+
+    <rect x="70" y="889" width="405" height="112" rx="10" class="activity"/>
+    <text x="88" y="924" class="b">1F｜331.29㎡｜入口／共用服務</text>
+    <text x="88" y="953" class="s">門廳、辦公、廚房、中央餐廳／活動150㎡</text>
+    <text x="88" y="980" class="s">家屬會客、無障礙廁所、服務卸貨動線</text>
+  </g>
+
+  <!-- center: typical floor plan -->
+  <g filter="url(#shadow)"><rect x="535" y="160" width="780" height="870" rx="18" fill="#fff"/></g>
+  <text x="565" y="205" class="t h">B｜典型照顧樓層配置（3–6F示意）</text>
+  <text x="565" y="235" class="t s muted">雙面採光外周配置寢室；中央工作站可直接監看主要動線。</text>
+
+  <rect x="575" y="275" width="700" height="610" rx="8" fill="#fdfefe" stroke="#17324d" stroke-width="4"/>
+
+  <!-- rooms top -->
+  <rect x="595" y="295" width="200" height="150" rx="6" class="room"/>
+  <text x="615" y="325" class="t b">五人房 A｜35㎡+</text>
+  <text x="615" y="350" class="t s">5床 × 7㎡淨面積</text>
+  <text x="615" y="374" class="t tiny">一般型：洗手檯＋馬桶</text>
+  <text x="615" y="397" class="t tiny">自然採光／緊急呼叫</text>
+  <path d="M625 420h32m18 0h32m18 0h32" class="line"/>
+
+  <rect x="807" y="295" width="200" height="150" rx="6" class="room"/>
+  <text x="827" y="325" class="t b">五人房 B｜35㎡+</text>
+  <text x="827" y="350" class="t s">5床 × 7㎡淨面積</text>
+  <text x="827" y="374" class="t tiny">臥床專區：得僅設洗手設備</text>
+  <text x="827" y="397" class="t tiny">自然採光／緊急呼叫</text>
+  <path d="M837 420h32m18 0h32m18 0h32" class="line"/>
+
+  <rect x="1019" y="295" width="236" height="150" rx="6" class="activity"/>
+  <text x="1039" y="325" class="t b">起居／餐飲活動</text>
+  <text x="1039" y="352" class="t b">52㎡+</text>
+  <text x="1039" y="378" class="t tiny">納入全機構4㎡／人</text>
+  <text x="1039" y="401" class="t tiny">計算；走廊不得計入</text>
+
+  <!-- corridor and station -->
+  <rect x="595" y="457" width="660" height="96" rx="5" fill="#eef1f4" stroke="#80909e" stroke-width="2"/>
+  <text x="615" y="488" class="t b">主要走廊 ≥ 1.40m*</text>
+  <text x="615" y="516" class="t tiny">兩側有居室時仍須依建築技術規則另行檢討；房門淨寬≥0.80m</text>
+  <rect x="856" y="467" width="150" height="76" rx="6" class="service"/>
+  <text x="875" y="497" class="t b">護理工作站</text>
+  <text x="875" y="522" class="t tiny">備藥／急救／紀錄</text>
+
+  <!-- rooms bottom -->
+  <rect x="595" y="565" width="190" height="150" rx="6" class="room"/>
+  <text x="613" y="596" class="t b">五人房 C</text><text x="613" y="623" class="t s">35㎡+｜5床</text>
+  <text x="613" y="651" class="t tiny">一般型須廁所／洗手</text><text x="613" y="674" class="t tiny">自然採光</text>
+
+  <rect x="797" y="565" width="190" height="150" rx="6" class="room"/>
+  <text x="815" y="596" class="t b">五人房 D</text><text x="815" y="623" class="t s">35㎡+｜5床</text>
+  <text x="815" y="651" class="t tiny">臥床專區得僅洗手</text><text x="815" y="674" class="t tiny">自然採光</text>
+
+  <rect x="999" y="565" width="256" height="150" rx="6" class="room"/>
+  <text x="1017" y="596" class="t b">六人房 E｜42㎡+</text><text x="1017" y="623" class="t s">6床｜法定床數上限</text>
+  <text x="1017" y="651" class="t tiny">一般型須廁所／洗手</text><text x="1017" y="674" class="t tiny">隔離視線屏障</text>
+
+  <!-- support band -->
+  <rect x="595" y="727" width="146" height="132" rx="6" class="service"/>
+  <text x="613" y="758" class="t b">一般型沐浴×3</text>
+  <text x="613" y="786" class="t tiny">26人按每10人1套</text><text x="613" y="809" class="t tiny">臥床專區另依例外檢討</text>
+  <rect x="753" y="727" width="135" height="132" rx="6" class="service"/>
+  <text x="771" y="758" class="t b">污物處理</text><text x="771" y="786" class="t tiny">清污分流</text>
+  <rect x="900" y="727" width="155" height="132" rx="6" class="core"/>
+  <text x="918" y="758" class="t b">床梯／電梯</text><text x="918" y="786" class="t tiny">垂直運送核心</text>
+  <rect x="1067" y="727" width="188" height="132" rx="6" class="core"/>
+  <text x="1085" y="758" class="t b">安全梯 A／B</text><text x="1085" y="786" class="t tiny">雙向避難概念</text><text x="1085" y="809" class="t tiny">位置待原始圖核定</text>
+
+  <text x="575" y="920" class="t s muted">* 平面形狀、樓梯數量、排煙、防火區劃、避難層與消防設備，須依使用執照、原竣工圖及消防檢討確定。</text>
+  <text x="575" y="952" class="t s muted">7F僅319.24㎡：寢室182㎡＋活動52㎡後僅餘85.24㎡，核心、走廊、工作站及衛浴可行性偏低。</text>
+
+  <!-- right: compliance -->
+  <g filter="url(#shadow)"><rect x="1345" y="160" width="415" height="870" rx="18" fill="#fff"/></g>
+  <text x="1375" y="205" class="t h">C｜130床面積檢核</text>
+  <text x="1375" y="236" class="t s muted">依住宿式長照機構設立標準附件三</text>
+
+  <rect x="1375" y="265" width="355" height="118" rx="10" class="activity"/>
+  <text x="1395" y="300" class="t b">日常活動場所</text>
+  <text x="1395" y="334" class="t h">130 × 4㎡ = 520㎡以上</text>
+  <text x="1395" y="362" class="t s">1F 150＋2F 110＋3–7F各52㎡</text>
+
+  <rect x="1375" y="397" width="355" height="118" rx="10" class="room"/>
+  <text x="1395" y="432" class="t b">寢室淨樓地板面積</text>
+  <text x="1395" y="466" class="t h">130 × 7㎡ = 910㎡以上</text>
+  <text x="1395" y="494" class="t s">不含浴廁；20間五人房＋5間六人房</text>
+
+  <rect x="1375" y="529" width="355" height="118" rx="10" class="service"/>
+  <text x="1395" y="564" class="t b">全機構總樓地板面積</text>
+  <text x="1395" y="598" class="t h">130 × 16㎡ = 2,080㎡以上</text>
+  <text x="1395" y="626" class="t s">停車空間、員工宿舍不得計入</text>
+
+  <rect x="1375" y="661" width="355" height="216" rx="10" class="warn"/>
+  <text x="1395" y="697" class="t b" fill="#a32d26">✓ 各樓層面積加總已校正</text>
+  <text x="1395" y="734" class="t n">331.29＋307.47＋</text>
+  <text x="1395" y="767" class="t n">370.96×4＋319.24＝</text>
+  <text x="1395" y="814" class="t h" fill="#a32d26">2,441.84㎡</text>
+  <text x="1395" y="850" class="t tiny">130床平均18.78㎡／床；面積母數一致。</text>
+
+  <rect x="1375" y="891" width="355" height="105" rx="10" class="core"/>
+  <text x="1395" y="926" class="t b">床數初判</text>
+  <text x="1395" y="956" class="t n">僅就16㎡／床：2,441.84㎡支持130床。</text>
+  <text x="1395" y="980" class="t tiny">最終床數仍受消防、避難、採光、柱位與淨面積限制。</text>
+
+  <!-- footer -->
+  <rect x="40" y="1055" width="1720" height="155" rx="16" fill="#eaf0f5"/>
+  <text x="70" y="1092" class="t b">法規設計提醒</text>
+  <text x="70" y="1124" class="t n">一般寢室每房須設洗手檯＋馬桶；僅植物人、長期臥床（含重癱）專區／專責服務者，得只設洗手設備。每房最多6床。</text>
+  <text x="70" y="1155" class="t n">長期臥床係巴氏量表≤20分且無生活自理能力者。若收住具行動能力之中度以上失智者，須改採每單元≤16人設計。</text>
+  <text x="70" y="1186" class="t tiny muted">製圖日期：2026-10-17｜依全國法規資料庫「長期照顧服務機構設立標準」第12條附件三整理｜用途：前期可行性討論</text>
+</svg>
